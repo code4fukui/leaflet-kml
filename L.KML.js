@@ -1,6 +1,7 @@
 /*!
 	Copyright (c) 2011-2015, Pavel Shramov, Bruno Bergot - MIT licence
 */
+import { addLinkTag } from "https://js.sabae.cc/addLinkTag.js";
 
 L.KML = L.FeatureGroup.extend({
 
@@ -273,6 +274,7 @@ L.Util.extend(L.KML, {
     }
 
     if (name) {
+			descr = addLinkTag(descr);
       layer.bindPopup('<h2>' + name + '</h2>' + descr, { className: 'kml-popup'});
     }
   },

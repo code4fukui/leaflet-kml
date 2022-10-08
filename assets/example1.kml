@@ -117,7 +117,7 @@
       <Placemark>
         <name>Simple placemark</name>
         <description>Attached to the ground. Intelligently places itself at the
-          height of the underlying terrain.</description>
+          height of the underlying terrain. https://example.com/</description>
         <Point>
           <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>
         </Point>
